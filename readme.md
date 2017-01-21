@@ -14,8 +14,8 @@ strRender("template","replaced",..."['replacers']") => "renderedString"
 
 Replaces a string by multiple string in ordered way.
 - "template": The original string.
-- "['replaced']": The string you want to be replaced.
-- ...replacers: The replacers strings.
+- "replaced": The string you want to be replaced.
+- ..."['replacers']": The replacers strings.
 
 Eg:
 
